@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: blue;
+    background-color: orange;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#second-paragraph {
+    color: red;
+    background-color: pink;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: overline;
+}
+
+#third-paragraph {
+    color: purple;
+    background-color:green;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#span1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#span2 {
+    color: magenta;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    color: blueviolet;
+    font-size: 24px;
+    background-color: black;
+}
+
+#span4 {
+    color: teal;
+    text-align: right;
+    text-decoration: overline;
+    background-color: brown;
+}
