@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#static-shock-heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+#amber-area {
+    background-color: #FFBE0B;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#orange-area {
+    background-color: #FB5607;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#rose-area {
+    background-color: #FF006E;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#pastels-heading {
+    text-align: center;
+    font-family: monospace;
+}
+
+#min-green-area {
+    background-color: #D2F1E4;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#pink-lavender-area {
+    background-color: #FBCAEF;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#hot-pink-area {
+    background-color: #F865B0;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#shocking-pink-area {
+    background-color: #E637BF;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#english-violet-area {
+    background-color: #48304D;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
