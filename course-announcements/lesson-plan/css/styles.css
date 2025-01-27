@@ -23,7 +23,7 @@ body {
   
 .todoListArea { 
     grid-area: todoListArea;
-    padding: 15px;
+    width: 80%;
 }
   
 .funFactAttendaceQuestionArea {  
