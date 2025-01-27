@@ -26,6 +26,8 @@ body {
         "todoListArea funFactAttendaceQuestionArea"
         "thingsToKnowArea thingsToKnowArea";
     padding-top: 50px;
+    width: 90%;
+    margin-left: 10%;
 }
   
 .todoListArea { 
@@ -178,6 +180,7 @@ input {
 
 p {
     font-size: 25px;
+    font-weight: bold;
 }
 
 h1 {
