@@ -1,0 +1,100 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.lessonPlanContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 475px 100px 1fr;
+    align-content: center;
+    background-image: url(../images/pexels-photo-925743.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-template-areas:
+        "lessonPlanHeaderArea lessonPlanHeaderArea"
+        "lessonPlanBreakdownArea funFactArea"
+        "lessonPlanBreakdownArea attendanceQuestionArea"
+        "thingsToKnowArea thingsToKnowArea";
+    height: 100%;
+    width: 100%;
+    height: 102vh;
+    width: 100.5%;
+    margin-left: -10px;
+    margin-top: -2%;
+}
+
+.lessonPlanHeaderArea {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px;
+    grid-template-areas:
+        "lessonPlanArea"
+        "currentDateArea";
+    grid-area: lessonPlanHeaderArea;
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+}
+
+.currentDateArea {
+    text-align: center;
+    grid-area: currentDateArea;
+    height: 100%;
+    width: 100%;
+    font-size: 35px;
+}
+
+.lessonPlanArea {
+    text-align: center;
+    grid-area: lessonPlanArea;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.lessonPlanBreakdownArea {
+    grid-area: lessonPlanBreakdownArea;
+    height: 100%;
+    width: 100%;
+    margin-left:10px;
+}
+
+.funFactArea {
+    grid-area: funFactArea;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+.attendanceQuestionArea {
+    grid-area: attendanceQuestionArea;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+.thingsToKnowArea {
+    grid-area: thingsToKnowArea;
+    font-size: 30px;
+    margin-left: 5%
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-size: 35px;
+}
+
+.flex-items {
+    display: block;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+}
