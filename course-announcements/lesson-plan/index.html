@@ -1,102 +1,108 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson Plan</title>
-    <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" 
-    />
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" 
-        rel="stylesheet"
-    >
-    <link 
-        rel="preconnect" 
-        href="https://fonts.googleapis.com"
-    >
-    <link 
-        rel="preconnect" 
-        href="https://fonts.gstatic.com" 
-        crossorigin
-    >
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Itim&family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
-        rel="stylesheet"
-    >
-    <script src="./js/index.js"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="currentDateArea">
-            <h1>Today's Lesson Plan: Week 22 Day 1 | S2 Day 5</h1>
-            <h2>Today's Date: <span id="date"></span></h2>
-            <script>displayDate()</script>
-        </div>
-        <div class="todoListArea">
-            <div id="myDIV" class="header">
-                <h2>Today's To Dos:</h2>
-                <input type="text" id="myInput" placeholder="Title...">
-                <span onclick="newElement()" class="addBtn">
-                    <i class="fas fa-plus"></i>
-                    Add
-                </span>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lesson Plan Week 22 Day 2</title>
+        <meta name="Author" content="Angel Gonzalez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" 
+            rel="stylesheet"
+        >
+        <script src="./js/index.js"></script>
+    </head>
+
+    <body>
+        <div class="lessonPlanContainer">
+            <div class="lessonPlanHeaderArea">
+                <div class="lessonPlanArea">
+                    <h1>Today's Lesson Plan: Week 22 Day 2 | S2 Day 6</h1>
+                </div>
+                <div class="currentDateArea">
+                    <h2>Today's Date: <span id="date"></span></h2>
+                    <script>displayDate()</script>
+                </div>
             </div>
-            <ul id="toDoList">
-                <li><u>PowerPoint:</u> Responsiveness Part 1</li>
-                <li><u>Demo:</u> Absolute vs Relative Units</li>
-                <li><u>Kahoot:</u> CSS Selectors to English Review</li>
-                <li><u>Kahoot:</u> English to CSS Selectors Review</li>
-                <li><u>Project:</u> Box Framing</li>
-            </ul>
+            <div class="lessonPlanBreakdownArea">
+                <div class="flex-container">
+                    <div class="flex-items">
+                        <h3>To Dos:</h3>
+                        <ul>
+                            <li>
+                                Before Lunch:
+                                <ul>
+                                    <li>
+                                        <u>Lab Day:</u> 
+                                        Time to finish and/or look back at other
+                                        exercises/project to gain lost points
+                                    </li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                After Lunch:
+                                <ul>
+                                    <li>
+                                        <u>Lab Day:</u> 
+                                        Time to finish and/or look back at other
+                                        exercises/project to gain lost points
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="thingsToKnowArea">
+                <br>
+                <h3>Things to Know:</h3>
+                <ul>
+                    <li>
+                        <b>
+                            BRYAN AND MY SELF WILL CONTINUE TO GRADE 
+                            ACCORDINGLY, NOW THAT ALL ISSUES HAVE BEEN 
+                            RESOLVED!
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            There is a <u>QUIZ</u> on <i>CSS Fundamentals</i> on
+                            <u>NEXT CLASS!</u>
+                        </b>
+                        <!-- <b>
+                            ANY OF TODAY'S EXERCISES SUBMITTED AFTER JAN-24-2025 
+                            AT 11:15PM WILL BE CONSIDER AS A LATE SUBMISSION!
+                        </b> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="funFactArea">
+                <h3>Fun Fact:</h3>
+                <p>
+                    Each year, about 100 billion (100,000,000,000) servings of 
+                    instant ramen noodels are sold, equivalent to about 14 bowls
+                    per person.
+                </p>
+                <div style="text-align: center;">
+                    <img 
+                        src="./images/ramen.webp" 
+                        alt="Fun Fact Image" 
+                        height="250px"
+                        width="350px" 
+                        style="border-radius: 30px;"
+                    >
+                </div>
+            </div>
+            <div class="attendanceQuestionArea">
+                <h3>Attendance Question:</h3>
+                <p>
+                    If you could only have 3 apps on your phone, which ones 
+                    would you choose?
+                </p>
+            </div>
         </div>
-        <div class="funFactAttendaceQuestionArea">
-          <div class="funFactArea">
-            <h3>Fun Fact:</h3>
-            <p>
-                The full name of the Barbie doll is Barbara Millicent 
-                Roberts, from Willows, Wisconsin. Her birthday is March 9, 
-                1959.
-            </p>
-          </div>
-          <div class="funcFactImageArea">
-            <img 
-                class="imgStyles"
-                src="./images/barbieDoll.JPG"
-            >
-          </div>
-          <div class="attendanceQuestionArea">
-            <h3>Attendance Question:</h3>
-            <p>
-                You are stranded on a remote desert island. 
-                Are you alone or with your worst enemy?
-            </p>
-          </div>
-        </div>
-        <div class="thingsToKnowArea">
-            <h2>Things to know:</h2>
-            <ol>
-                <li>
-                    <p>
-                        ANY OF TODAY'S EXERCISES SUBMITED AFTER JAN-27-2025 AT 
-                        11:15 PM WILL BE CONSIDERED A LATE SUBMISSION!
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Lab day tomorrow!
-                    </p>
-                </li>
-            </ol>
-        </div>
-    </div>
-    <script src="js/index.js"></script>
-</body>
+    </body>
 </html>
