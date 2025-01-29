@@ -6,3 +6,21 @@
 
     Good luck, and have fun!
 */
+
+.first-image {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.second-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.third-image {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
