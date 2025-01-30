@@ -1,0 +1,106 @@
+#license {
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 24px;
+    background: linear-gradient(to bottom right, #FFEA9F, #f59347);
+    font-family: sans-serif;  
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    width: 70px;
+    height: 80px;
+    margin: 5px 0px 25px 0px;
+    opacity: 50%;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+    margin: 5px 20px 5px 10px;
+}
+
+#signature {
+    text-align: center;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+    color: red;
+    padding: 5px 5px 5px 25px;
+}
+
+#content h1 {
+    color: darkblue;
+    font-size: 45px;
+    margin: 2px;
+    font-family: serif;
+}
+
+#left-side h4 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px;
+    padding: 4px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+}
+
+#data-left span,
+#data-right span {
+    color: red;
+    font-weight: bold;
+}
+
+#address {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#id-and-expiration div {
+    padding: 8px 30px 4px 4px;
+}
+
+#signature {
+    font-family: "Birthstone Bounce", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#real-id {
+    background-color: gold;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+}

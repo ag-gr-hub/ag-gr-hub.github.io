@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: aqua;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.single-column-2 {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: darkgreen;
+    color:white;
+    padding: 48px 0px;
+}
