@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout-container {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout-container h2 {
+    text-align: center;
+}
+
+#hero {
+    background-image: url("../images/skateboarding.avif");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#text-color {
+    color: rgb(130, 77, 77);
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
+    padding: 24px;
+    gap: 24px;
+}
+
+.grid-gallery img {
+    width: 100%;
+}
