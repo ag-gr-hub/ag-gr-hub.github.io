@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rosarivo:ital@0;1&family=Rubik+Spray+Paint&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.borel-regular {
+    font-family: "Borel", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#hero {
+    background-image: url("../images/hi-res/urban-hi-res-2nse.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2{
+    font-size: 72px;
+    margin-bottom: 36px;
+    color:white;
+}
+
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 15px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+#hero a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+#hero .hero-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#gallery-layout {
+    max-width: 1000px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border: 5px solid #333333;
+}
+
+#centered-column {
+    width: 100vw;
+    max-width: 900px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 240px;
+    border: 2px solid #FFE4DA;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #CEAAAA;
+    background: linear-gradient(
+        -50deg,
+        #333333,
+        #334444,
+        #333555
+    );
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card h2 {
+    font-size:36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #333333;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #333333;
+    transition:
+        background-color .5s,
+        color .5s;
+    border-radius: 15px;
+}
+
+.card a:hover {
+    background-color: white;
+    color: black;
+}
+  

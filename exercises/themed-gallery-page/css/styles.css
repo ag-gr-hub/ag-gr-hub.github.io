@@ -29,7 +29,10 @@ body {
 
 #hero .hero-content {
     text-align: center;
-    color: black;
+    background: 
+        linear-gradient(to right, #ff7eb3, #ff758c, #fda085);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-top: 100px;
 }
 
