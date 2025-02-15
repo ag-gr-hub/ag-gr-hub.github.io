@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom, #E8F7EE, #B8C4BB);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    font-weight: bold;
+}
+
+#navbar-1 #business-name-1 {
+    margin-right: auto;
+}
+
+#navbar-2 {
+    background-color: #AED9E0;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #5E6472;
+    padding: 24px;
+}
+
+#navbar-2 #business-name-2 {
+    margin-right: auto;
+}
+
+#navbar-2 #cta-button-1{
+    background-color: #FFA69E;
+    color: #5E6472;
+    border-radius: 36px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-3 {
+    background-color: #001514;
+    text-align: center;
+    padding: 20px;
+}
+
+#navbar-3 a {
+    color: #FBFFFE;
+    font-weight: bold;
+}
+
+#second-level-navbar-3 {
+    background-color: #A3320B;
+    display: flex;
+    align-items: center;
+}
+
+#second-level-navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#second-level-navbar-3 #business-name-3 {
+    margin-right: auto;
+}
+
+#second-level-navbar-3 #cta-button-2{
+    background-color: #E6AF2E;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#bottom-level-navbar-3 {
+    background-color: #001514;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom-level-navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
