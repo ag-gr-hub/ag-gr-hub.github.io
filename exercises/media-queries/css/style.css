@@ -211,7 +211,52 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 1000px) and (min-width: 768px) {
 
+}
+
+/* MOBILE BREAKPOINT */
 @media screen and (max-width: 768px) {
-    
+    #nav {
+        flex-direction: column;
+    }
+
+    #hero {
+        height: 300px;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #hero h3 {
+        font-size: 25px;
+    }
+
+    #content-container {
+        flex-direction: column;
+    }
+
+    .three-cards {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 300px;
+    }
+
+    .two-cards{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two-cards .card h3 {
+        margin: 0px;
+        padding: 0px;
+    }
 }
