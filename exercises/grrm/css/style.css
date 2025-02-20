@@ -467,6 +467,7 @@ body {
     }
 }
 
+/* MOBILE BREAKPOINT */
 @media screen and (max-width: 800px) {
     #grid-layout {
         display: grid;
